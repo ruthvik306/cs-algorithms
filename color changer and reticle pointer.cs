@@ -62,7 +62,7 @@ public class colourchanger : MonoBehaviour
     IEnumerator ChangeScene()
     {       
         yield return new WaitForSeconds(3f);
-        SceneManager.LoadScene("SCEE NAME");
+        SceneManager.LoadScene("SCENE NAME");
     }
 }
  
